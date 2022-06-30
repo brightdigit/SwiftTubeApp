@@ -1,0 +1,3 @@
+[submodule "Packages/SwiftTube"]
+	path = Packages/SwiftTube
+	url = git@github.com:brightdigit/SwiftTube.git

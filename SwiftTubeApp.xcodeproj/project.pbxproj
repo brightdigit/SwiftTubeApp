@@ -7,18 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B3A146EA286CD7C900A9CAC2 /* SwiftTubeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A146E9286CD7C900A9CAC2 /* SwiftTubeAppApp.swift */; };
+		B3A146EA286CD7C900A9CAC2 /* SwiftTubeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A146E9286CD7C900A9CAC2 /* SwiftTubeApp.swift */; };
 		B3A146EC286CD7C900A9CAC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A146EB286CD7C900A9CAC2 /* ContentView.swift */; };
 		B3A146EE286CD7CA00A9CAC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A146ED286CD7CA00A9CAC2 /* Assets.xcassets */; };
 		B3A146F1286CD7CA00A9CAC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A146F0286CD7CA00A9CAC2 /* Preview Assets.xcassets */; };
+		B3A14700286D25EF00A9CAC2 /* SwiftTube in Frameworks */ = {isa = PBXBuildFile; productRef = B3A146FF286D25EF00A9CAC2 /* SwiftTube */; };
+		B3A14702286D260300A9CAC2 /* Prch in Frameworks */ = {isa = PBXBuildFile; productRef = B3A14701286D260300A9CAC2 /* Prch */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B3A146E6286CD7C900A9CAC2 /* SwiftTubeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTubeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3A146E9286CD7C900A9CAC2 /* SwiftTubeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTubeAppApp.swift; sourceTree = "<group>"; };
+		B3A146E9286CD7C900A9CAC2 /* SwiftTubeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTubeApp.swift; sourceTree = "<group>"; };
 		B3A146EB286CD7C900A9CAC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B3A146ED286CD7CA00A9CAC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3A146F0286CD7CA00A9CAC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3A146F8286CD99900A9CAC2 /* SwiftTube */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SwiftTube; path = Packages/SwiftTube; sourceTree = "<group>"; };
+		B3A146FB286CDA4500A9CAC2 /* Prch */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Prch; path = Packages/SwiftTube/Packages/Prch; sourceTree = "<group>"; };
+		B3A146FD286CDDBF00A9CAC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +31,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3A14700286D25EF00A9CAC2 /* SwiftTube in Frameworks */,
+				B3A14702286D260300A9CAC2 /* Prch in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,8 +42,10 @@
 		B3A146DD286CD7C900A9CAC2 = {
 			isa = PBXGroup;
 			children = (
+				B3A146F7286CD99900A9CAC2 /* Packages */,
 				B3A146E8286CD7C900A9CAC2 /* SwiftTubeApp */,
 				B3A146E7286CD7C900A9CAC2 /* Products */,
+				B3A146FE286D25EF00A9CAC2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,7 +60,8 @@
 		B3A146E8286CD7C900A9CAC2 /* SwiftTubeApp */ = {
 			isa = PBXGroup;
 			children = (
-				B3A146E9286CD7C900A9CAC2 /* SwiftTubeAppApp.swift */,
+				B3A146FD286CDDBF00A9CAC2 /* Info.plist */,
+				B3A146E9286CD7C900A9CAC2 /* SwiftTubeApp.swift */,
 				B3A146EB286CD7C900A9CAC2 /* ContentView.swift */,
 				B3A146ED286CD7CA00A9CAC2 /* Assets.xcassets */,
 				B3A146EF286CD7CA00A9CAC2 /* Preview Content */,
@@ -65,6 +75,22 @@
 				B3A146F0286CD7CA00A9CAC2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B3A146F7286CD99900A9CAC2 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				B3A146FB286CDA4500A9CAC2 /* Prch */,
+				B3A146F8286CD99900A9CAC2 /* SwiftTube */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		B3A146FE286D25EF00A9CAC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +109,10 @@
 			dependencies = (
 			);
 			name = SwiftTubeApp;
+			packageProductDependencies = (
+				B3A146FF286D25EF00A9CAC2 /* SwiftTube */,
+				B3A14701286D260300A9CAC2 /* Prch */,
+			);
 			productName = SwiftTubeApp;
 			productReference = B3A146E6286CD7C900A9CAC2 /* SwiftTubeApp.app */;
 			productType = "com.apple.product-type.application";
@@ -138,7 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3A146EC286CD7C900A9CAC2 /* ContentView.swift in Sources */,
-				B3A146EA286CD7C900A9CAC2 /* SwiftTubeAppApp.swift in Sources */,
+				B3A146EA286CD7C900A9CAC2 /* SwiftTubeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +300,7 @@
 				DEVELOPMENT_TEAM = MLT7M394S7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftTubeApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +330,7 @@
 				DEVELOPMENT_TEAM = MLT7M394S7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftTubeApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +371,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B3A146FF286D25EF00A9CAC2 /* SwiftTube */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftTube;
+		};
+		B3A14701286D260300A9CAC2 /* Prch */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Prch;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B3A146DE286CD7C900A9CAC2 /* Project object */;
 }
