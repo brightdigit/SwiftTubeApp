@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B37BC5BD286E867000BC91AE /* PKCEError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37BC5B3286E866F00BC91AE /* PKCEError.swift */; };
+		B37BC5BE286E867000BC91AE /* OAuthTokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37BC5B4286E866F00BC91AE /* OAuthTokenResponse.swift */; };
+		B37BC5BF286E867000BC91AE /* OAuthorizationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37BC5B5286E866F00BC91AE /* OAuthorizationRequest.swift */; };
+		B37BC5C0286E867000BC91AE /* OAuthResponseParsingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37BC5B6286E866F00BC91AE /* OAuthResponseParsingError.swift */; };
+		B37BC5C1286E867000BC91AE /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37BC5B7286E866F00BC91AE /* Subscription.swift */; };
+		B37BC5C2286E867000BC91AE /* SubscriptionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37BC5B8286E866F00BC91AE /* SubscriptionsModel.swift */; };
+		B37BC5C3286E867000BC91AE /* Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37BC5B9286E866F00BC91AE /* Future.swift */; };
+		B37BC5C4286E867000BC91AE /* OAuthWebSessionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37BC5BA286E866F00BC91AE /* OAuthWebSessionProvider.swift */; };
+		B37BC5C5286E867000BC91AE /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37BC5BB286E866F00BC91AE /* SignInViewModel.swift */; };
+		B37BC5C6286E867000BC91AE /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37BC5BC286E866F00BC91AE /* Result.swift */; };
 		B3A146EA286CD7C900A9CAC2 /* SwiftTubeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A146E9286CD7C900A9CAC2 /* SwiftTubeApp.swift */; };
 		B3A146EC286CD7C900A9CAC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A146EB286CD7C900A9CAC2 /* ContentView.swift */; };
 		B3A146EE286CD7CA00A9CAC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A146ED286CD7CA00A9CAC2 /* Assets.xcassets */; };
@@ -16,6 +26,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B37BC5B3286E866F00BC91AE /* PKCEError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKCEError.swift; sourceTree = "<group>"; };
+		B37BC5B4286E866F00BC91AE /* OAuthTokenResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthTokenResponse.swift; sourceTree = "<group>"; };
+		B37BC5B5286E866F00BC91AE /* OAuthorizationRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthorizationRequest.swift; sourceTree = "<group>"; };
+		B37BC5B6286E866F00BC91AE /* OAuthResponseParsingError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthResponseParsingError.swift; sourceTree = "<group>"; };
+		B37BC5B7286E866F00BC91AE /* Subscription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
+		B37BC5B8286E866F00BC91AE /* SubscriptionsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionsModel.swift; sourceTree = "<group>"; };
+		B37BC5B9286E866F00BC91AE /* Future.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Future.swift; sourceTree = "<group>"; };
+		B37BC5BA286E866F00BC91AE /* OAuthWebSessionProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthWebSessionProvider.swift; sourceTree = "<group>"; };
+		B37BC5BB286E866F00BC91AE /* SignInViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		B37BC5BC286E866F00BC91AE /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		B3A146E6286CD7C900A9CAC2 /* SwiftTubeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTubeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A146E9286CD7C900A9CAC2 /* SwiftTubeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTubeApp.swift; sourceTree = "<group>"; };
 		B3A146EB286CD7C900A9CAC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +80,16 @@
 		B3A146E8286CD7C900A9CAC2 /* SwiftTubeApp */ = {
 			isa = PBXGroup;
 			children = (
+				B37BC5B9286E866F00BC91AE /* Future.swift */,
+				B37BC5B5286E866F00BC91AE /* OAuthorizationRequest.swift */,
+				B37BC5B6286E866F00BC91AE /* OAuthResponseParsingError.swift */,
+				B37BC5B4286E866F00BC91AE /* OAuthTokenResponse.swift */,
+				B37BC5BA286E866F00BC91AE /* OAuthWebSessionProvider.swift */,
+				B37BC5B3286E866F00BC91AE /* PKCEError.swift */,
+				B37BC5BC286E866F00BC91AE /* Result.swift */,
+				B37BC5BB286E866F00BC91AE /* SignInViewModel.swift */,
+				B37BC5B7286E866F00BC91AE /* Subscription.swift */,
+				B37BC5B8286E866F00BC91AE /* SubscriptionsModel.swift */,
 				B3A146FD286CDDBF00A9CAC2 /* Info.plist */,
 				B3A146E9286CD7C900A9CAC2 /* SwiftTubeApp.swift */,
 				B3A146EB286CD7C900A9CAC2 /* ContentView.swift */,
@@ -167,8 +197,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B37BC5BE286E867000BC91AE /* OAuthTokenResponse.swift in Sources */,
 				B3A146EC286CD7C900A9CAC2 /* ContentView.swift in Sources */,
+				B37BC5C4286E867000BC91AE /* OAuthWebSessionProvider.swift in Sources */,
+				B37BC5C0286E867000BC91AE /* OAuthResponseParsingError.swift in Sources */,
 				B3A146EA286CD7C900A9CAC2 /* SwiftTubeApp.swift in Sources */,
+				B37BC5C2286E867000BC91AE /* SubscriptionsModel.swift in Sources */,
+				B37BC5C6286E867000BC91AE /* Result.swift in Sources */,
+				B37BC5C1286E867000BC91AE /* Subscription.swift in Sources */,
+				B37BC5C3286E867000BC91AE /* Future.swift in Sources */,
+				B37BC5C5286E867000BC91AE /* SignInViewModel.swift in Sources */,
+				B37BC5BD286E867000BC91AE /* PKCEError.swift in Sources */,
+				B37BC5BF286E867000BC91AE /* OAuthorizationRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
